@@ -20,6 +20,7 @@ export enum HTTP_METHODS {
   POST = "POST",
   PUT = "PUT",
   DELETE = "DELETE",
+  OPTIONS = "OPTIONS",
 }
 
 export interface User {

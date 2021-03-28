@@ -1,5 +1,5 @@
 {
-  "name": "manager_ui",
+  "name": "manager_server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,27 +8,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dinclaise/Manager_UI.git"
+    "url": "git+https://github.com/Dinclaise/Manager_Server.git"
   },
   "author": "Anton Anokhin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Dinclaise/Manager_UI/issues"
+    "url": "https://github.com/Dinclaise/Manager_Server/issues"
   },
-  "homepage": "https://github.com/Dinclaise/Manager_UI#readme",
+  "homepage": "https://github.com/Dinclaise/Manager_Server#readme",
   "devDependencies": {
     "@types/nedb": "^1.8.11",
-    "@types/node": "^14.14.31",
-    "@typescript-eslint/eslint-plugin": "^4.15.2",
-    "@typescript-eslint/parser": "^4.15.2",
-    "eslint": "^7.20.0",
+    "@types/node": "^14.14.35",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react": "^7.23.0",
     "prettier": "2.2.1",
     "ts-node": "^9.1.1",
-    "typescript": "^4.1.5"
+    "typescript": "^4.2.3"
   },
   "dependencies": {
     "nedb": "^1.8.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
