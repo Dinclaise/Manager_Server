@@ -1,5 +1,6 @@
 import { UserCredentials } from "../Shared/Model";
 import * as Nedb from "nedb";
+import { delayResponse } from "../Shared/MethodDecorators";
 
 export class UserCredentialsDBAccess {
   private nedb: Nedb;
@@ -23,6 +24,7 @@ export class UserCredentialsDBAccess {
     });
   }
 
+  @delayResponse(3000)
   public async getUserCredential(
     username: string,
     password: string

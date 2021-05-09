@@ -7,6 +7,10 @@ Content-Type: application/json
 }
 
 ###
+
+GET  http://localhost:8080/systemInfo
+
+###
 DELETE http://localhost:8080/users?id=asd12214
 Authorization: scb8jokxd2 
 //token
