@@ -22,5 +22,6 @@ module.exports = {
     "no-undef": 0,
     "comma-dangle": 0,
     "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-non-null-assertion": true,
   },
 };
