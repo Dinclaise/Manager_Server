@@ -9,11 +9,11 @@ export class LoginHandler extends BaseRequestHandler {
   private tokenGenerator: TokenGenerator;
 
   constructor(
-    req: IncomingMessage,
-    res: ServerResponse,
-    tokenGenerator: TokenGenerator
+    tokenGenerator: TokenGenerator,
+    req?: IncomingMessage,
+    res?: ServerResponse
   ) {
-    super(req, res);
+    super({} as any, {} as any);
     this.tokenGenerator = tokenGenerator;
   }
 

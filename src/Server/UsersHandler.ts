@@ -12,11 +12,11 @@ export class UsersHandler extends BaseRequestHandler {
   private tokenValidator: TokenValidator;
 
   constructor(
-    req: IncomingMessage,
-    res: ServerResponse,
-    tokenValidator: TokenValidator
+    tokenValidator: TokenValidator,
+    req?: IncomingMessage,
+    res?: ServerResponse
   ) {
-    super(req, res);
+    super({} as any, {} as any);
     this.tokenValidator = tokenValidator;
   }
 

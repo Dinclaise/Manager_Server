@@ -10,6 +10,14 @@ export abstract class BaseRequestHandler {
     this.res = res;
   }
 
+  public setRequest(req: IncomingMessage) {
+    this.req = req;
+  }
+
+  public setResponse(res: ServerResponse) {
+    this.res = res;
+  }
+
   //   abstract async handleRequest(): Promise<void> {}
 
   protected async handleNotFound() {
